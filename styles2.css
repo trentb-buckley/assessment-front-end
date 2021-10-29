@@ -1,0 +1,135 @@
+body {
+    background: #ddd;
+    margin: 1rem;
+    padding: 1rem;
+    max-width: 500px;
+    margin: 2rem auto;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  nav {
+      border-bottom: 2px solid orange;
+  }
+  
+  ol {
+      padding-left: 0;
+  }
+  
+  .crumb {
+      margin-right: 2em;
+      display: inline;
+  }
+  
+  a {
+      color: orange;
+  }
+  
+  a:visited {
+      color: crimson;
+  }
+  
+.p-photo {
+    /* border: 2px solid blue; */
+    height: 200px;
+    margin-right: 75px;
+    margin-left: 75px;
+
+}
+.name-photo {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buckli-logo {
+    height: 150px;
+    border-radius: 50%;
+    padding: 12px;
+    transition: 1s;
+    position: absolute;
+    right: 250px;
+}
+.buckli-logo:hover {
+    transform: scale(1.01,1.01) rotatez(360deg);
+}
+.pen-card {
+    width: 300px;
+    height: 400px;
+    background-color: black;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    color: white;
+    font-size: 10px;
+    margin-left: 25px;
+}
+.pen-pic {
+    width: 200px;
+    height: 200px;
+    border: 2px solid white;
+    border-radius: 25px;
+    margin: 20px;
+    /* object-fit: cover; */
+
+}
+.pen-section {
+    display: flex;
+}
+.select-section {
+    margin-top: 50px;
+    background-color: lightgoldenrodyellow;
+    font-size: 20px;
+    height: 400px;
+    width: 400px;
+}
+button {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.button-btn {
+    background-color: black;
+    color: white;
+    transition: .125s;
+}
+.button-btn:hover {
+    background-color: yellow;
+    color: black;
+    transform: scale(1.125,1.125)
+}
+.button-btn:active {
+    background-color: lightyellow;
+    color: darkgray;
+    transform: scale(1.075,1.075);
+}
+.ammenities {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bus-card {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: skyblue;
+    margin-bottom: 25px;
+    border: 10px solid white;
+    border-radius: 25px;
+}
+.bus-pic {
+    height: 175px;
+    width: 175px;
+    object-fit: cover;
+    align-items: center;
+    margin-left: 65px;
+    margin-top: 5px;
+    border: 5px solid darkblue;
+    border-radius: 15px;
+}
+h2 {
+    margin-top: 25px;
+}

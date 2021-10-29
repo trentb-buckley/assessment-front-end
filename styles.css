@@ -1,0 +1,82 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+.welcome {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.welcom-p {
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	margin-left: 100px;
+	letter-spacing: 10px;
+	background-color: navy;
+	color: yellow;
+	border-radius: 15px;
+}
+.compliments {
+	position:absolute;
+	left: 200px;
+}
+.cat-photo {
+	flex-direction: row;
+}
+.bottom-section {
+	display: flex;
+	justify-content: space-evenly;
+}
+.input-form {
+	position: absolute;
+	right: 200px;
+}
+#contact {
+	position: absolute;
+	left: 200px;
+}
+.ace {
+	height: 400px;
+	transition: 2s;
+}
+.ace:hover {
+	/* border: 40px dotted green; */
+	/* border-radius: 50%;def */
+	transform: scale(1.5,1.5) rotatey(180deg)
+}
